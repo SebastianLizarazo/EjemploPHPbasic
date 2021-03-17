@@ -8,4 +8,10 @@ if ($nombre== "Diego"){
 }else{
     echo "Holaaa  $nombre";
 }
-
+?>
+  <h1>Usuario dueño</h1>
+<?php if ($nombre == "Sebastian"){ ?>
+       <h1>Hola usuario <?php echo $nombre; ?></h1>
+<?php }else{ ?>
+       <h1>No hay usuario dueño</h1>
+<?php } ?>
