@@ -4,6 +4,11 @@ h1{
 h3{
     color: darkred;
     font-family: "Arial Narrow";
+    margin: 15px;
+}
+h4{
+    color: darkgreen;
+    margin: 15px;
 }
 header{
     color: brown;
@@ -15,4 +20,11 @@ header{
 }
 body{
     background-color: darkgrey;
+}
+article{
+    font-family:Arial;
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin: 20px;
 }

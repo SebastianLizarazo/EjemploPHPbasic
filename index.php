@@ -46,7 +46,7 @@ $nombre=(bool)"231321";//Conversion implicita
 echo $nombre;
 var_dump($nombre);
 ?>
-
+<h4>Arreglos y matrices</h4>
 <?php
 $arrayUsuarios= array(
        [
@@ -65,12 +65,17 @@ $arrayUsuarios= array(
        ]
 );
 var_dump($arrayUsuarios);
-foreach ($arrayUsuarios as $usuario) {
-    echo $usuario['Nombre'] . "</br>";
-}
 ?>
+   <section>
+       <article>
+       <?php foreach ($arrayUsuarios as $usuario) {
+                 echo $usuario['Nombre'] . "</br>";
+               } ?>
+       </article>
+   </section>
 
-  <h1>Usuario dueño</h1>
+
+<h1>Usuario dueño</h1>
 <?php if ($nombre == "Sebastian"){ ?>
        <h1>Hola <?php echo $nombre; ?></h1>
 <?php }else{ ?>
@@ -78,8 +83,8 @@ foreach ($arrayUsuarios as $usuario) {
 <?php } ?>
 
 <?php
-
-if ($nombre== "Diego"){
+/*
+if ($nombre=="Diego"){
     echo "Hola Diego";
 }else if ($nombre == "Juan"){
     echo "Hola Juan";
@@ -93,3 +98,7 @@ class usuario{
     // resource y null
     private string $nombre = "Sebastian";
 }
+*/
+?>
+<a href="index2.php">Siguiente pagina</a>
+<footer><?php echo $nombre;?>&copy;</footer>
