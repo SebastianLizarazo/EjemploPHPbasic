@@ -1,0 +1,18 @@
+h1{
+    color: aqua;
+}
+h3{
+    color: darkred;
+    font-family: "Arial Narrow";
+}
+header{
+    color: brown;
+    font-size: 30px;
+    font-family: "Arial Black";
+    margin: 40px;
+    background: darkgray ;
+    text-align: center;
+}
+body{
+    background-color: darkgrey;
+}
